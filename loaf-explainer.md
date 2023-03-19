@@ -149,7 +149,7 @@ const someLongAnimationFrameEntry = {
     // A LOaF can block both, in which case ui-event would take precedent.
     blocking: 'ui-event' | 'animation' | 'none',
 
-    // Whether the work task (before rendering) cane from this window, a descendant, an ancestor,
+    // Whether the work task (before rendering) came from this window, a descendant, an ancestor,
     // or adifferent window
     taskAttribution: TaskAttributionTiming
 
